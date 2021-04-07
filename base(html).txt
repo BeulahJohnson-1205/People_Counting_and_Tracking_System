@@ -1,0 +1,52 @@
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>People Counter</title>
+    <link href="https://cdn.bootcss.com/bootstrap/4.0.0/css/bootstrap.min.css" rel="stylesheet">
+    <script src="https://cdn.bootcss.com/popper.js/1.12.9/umd/popper.min.js"></script>
+    <script src="https://cdn.bootcss.com/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://cdn.bootcss.com/bootstrap/4.0.0/js/bootstrap.min.js"></script>
+	<style>
+	.bg-dark {
+		background-color: #42678c!important;
+	}
+	#result {
+		color: #0a1c4ed1;
+	}
+	</style>
+</head>
+
+<body>
+    <nav class="navbar navbar-dark bg-warning">
+        <div class="container">
+            <a class="navbar-brand" href="#">People Counter and Tracking System </a>
+        </div>
+    </nav>
+    <div class="navbar navbar-dark bg-info">
+        
+		<div class="container">
+		  <div class="row">
+			<div class="col-sm-8 bd" >
+			  <h3>Flow Estimation</h3>
+			  <p>Real-time people flow estimation can be very useful to gain insights for many commercial and non-commercial applications. Counting people on streets or at entrances of places is indeed beneficial for security, tracking, and marketing purposes. People counters can be used to monitor occupancy of entire buildings, individual rooms or anything some of the application where you can implement people counters are 
+Retail stores and supermarkets
+Higher education
+Corporate workplaces
+Restaurants, hospitality and leisure facilities
+Washrooms</p>
+				<img src= "{{ url_for('video_feed') }}" style="height:300px"class="img-rounded" alt="Gesture">       
+			</div>
+			<div class="col-sm-4">
+				<div>
+			<img src= "https://www.burohappold.com/wp-content/uploads/2020/04/social-distancing_gettystock-1024x683.jpg" style="height:250px"class="img-rounded" alt="Gesture"> 
+			</div>
+			 
+		  </div>
+		</div>
+		</div>
+    </div>
+</body>
+
